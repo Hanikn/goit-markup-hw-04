@@ -293,6 +293,26 @@ body {
   gap: 24px;
 }
 
+.icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.icons-item {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.icons-item:hover,
+.icons-item:focus {
+  background-color: #31d0aa;
+}
+.team-icons {
+  fill: #f4f4fd;
+}
+
 .third-section-main-title {
   color: #2e2f42;
   text-align: center;
@@ -406,6 +426,7 @@ body {
   background-color: #4d5ae5;
   padding: 40px 32px;
   position: absolute;
+  line-height: 1.5;
   top: 0;
   left: 0;
   width: 100%;
