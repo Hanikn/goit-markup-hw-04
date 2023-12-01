@@ -456,12 +456,18 @@ body {
   overflow: hidden;
 }
 /* FOOTER */
-footer {
-  background: #2e2f42;
+.div-footer {
+  display: flex;
+  align-items: baseline;
 }
 
 .bottom {
   padding: 100px 0;
+  background: #2e2f42;
+}
+
+.div-footer-logo {
+  margin-right: 120px;
 }
 
 .studio-logo {
@@ -487,4 +493,33 @@ footer {
   text-transform: uppercase;
   margin-bottom: 16px;
   text-decoration: none;
+}
+
+.par-footer {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.icons-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.icons-item-footer {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-footer {
+  fill: #f4f4fd;
+}
+
+.footer-lnk:hover,
+.footer-lnk:focus {
+  background-color: #31d0aa;
 }
